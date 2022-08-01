@@ -19,5 +19,18 @@ body {
 }
 
 #name {
-    padding-top: 25px;
+    padding-top: 40px;
+}
+
+#biography {
+    padding-top: 40px;
+}
+
+#biography h2{
+    text-transform: uppercase;
+}
+
+#biography p {
+    padding-top: 20px;
+    font-size: 20px;
 }
