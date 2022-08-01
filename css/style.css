@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #001a30;
+    color: #fcfcfc;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+#mainImg h1{
+    font-size: 5vw;
+    font-weight: 650;
+}
+
+#name {
+    padding-top: 25px;
+}
