@@ -34,3 +34,19 @@ body {
     padding-top: 20px;
     font-size: 20px;
 }
+
+/* Carousel */
+
+#slider {
+    padding-top: 40px;
+}
+
+/* Timeline */
+
+#timeline {
+    padding-top: 40px;
+}
+
+#timeline h2{
+    text-transform: uppercase;
+}
