@@ -50,3 +50,20 @@ body {
 #timeline h2{
     text-transform: uppercase;
 }
+
+/* Accordion */
+
+.accordion{
+    padding-bottom: 40px;
+}
+.accordion-item {
+    margin-bottom: 20px;
+}
+.accordion-button{
+    font-size: 0.7em;
+    font-weight: 500;
+}
+.accordion-button:not(.collapsed){
+    
+    color: #001a30;
+}
