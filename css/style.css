@@ -10,8 +10,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+hr {
+    color: #f8dd4d;
+}
 .container-fluid {
     padding: 0px;
+}
+
+.container-fluid h2 {
+    color: #de071f;
 }
 #mainImg h1{
     font-size: 5vw;
@@ -60,10 +67,16 @@ body {
     margin-bottom: 20px;
 }
 .accordion-button{
+    font-weight: bolder;
     font-size: 0.7em;
-    font-weight: 500;
 }
 .accordion-button:not(.collapsed){
-    
+    font-weight: bold;
     color: #001a30;
+}
+
+.accordion-body {
+    color: #001a30;
+    font-size: 18px;
+    font-weight: bold;
 }
