@@ -46,6 +46,8 @@ hr {
 
 #slider {
     padding-top: 40px;
+    max-width: 1296px;
+    max-height: 767px;
 }
 
 /* Timeline */
@@ -79,4 +81,38 @@ hr {
     color: #001a30;
     font-size: 18px;
     font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    color: #001a30;
+    background-color: #fcfcfc;
+}
+#info {
+    text-align: center;
+}
+
+/* BREAKPOINTS */
+
+/* Extra small devices (<576px) */
+@media (max-width: 576px){
+
+    #biography h2 {
+        text-align: center;
+    }
+
+    #biography p {
+        font-size: 16px;
+    }
+
+    #timeline h2 {
+        text-align: center;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+    }
+    footer {
+        text-align: center;
+    }
 }
